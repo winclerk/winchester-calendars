@@ -10,8 +10,7 @@
   .clip {
     position: fixed;
     top: 0; left: 0;
-    /* Clip enough to hide the day panel on the right */
-    right: 220px;
+    right: 160px;  /* hide the day panel on the right */
     bottom: 0;
     overflow: hidden;
   }
@@ -19,8 +18,8 @@
     position: absolute;
     top: -100px;
     left: -1px;
-    /* Make iframe wider than clip so all 7 columns are visible inside the clip */
-    width: calc(100% + 230px);
+    /* Wide enough that Saturday column is fully inside the clip window */
+    width: calc(100% + 400px);
     height: calc(100% + 140px);
     border: none;
     display: block;
