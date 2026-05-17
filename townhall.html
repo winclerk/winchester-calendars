@@ -16,10 +16,11 @@
   }
   iframe {
     position: absolute;
-    top: -100px;
+    /* Bring down so the Today/arrow/month nav bar is visible (~55px from top of iframe) */
+    top: -55px;
     left: -1px;
     width: calc(100% + 400px);
-    height: calc(100% + 160px);
+    height: calc(100% + 100px);
     border: none;
     display: block;
   }
